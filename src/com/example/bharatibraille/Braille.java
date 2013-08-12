@@ -377,16 +377,16 @@ public class Braille extends Activity implements OnInitListener, OnGesturePerfor
 	}
 
 	public boolean onOptionsItemSelected(MenuItem item){
-		String set_this = "We are Enthusiastic Programmers @IIIT Allahabad\n\n";
-		set_this +="Siddharth Maloo(s_bond,sidhs) sidhs.m1@gmail.com\n";
-		set_this +="Pulkit Tandon(explorepulkit) explorepulkit@gmail.com\n";
-		set_this +="Prakhar Agrawal(prakhar3agrwal) prakhar.agrawal31291@gmail.com\n\n";		
+		String set_this = "I am Enthusiastic Programmer @IIIT Allahabad\n\n";
+		set_this +="Siddharth Maloo\n";
+		set_this +="Coding alias : s_bond,sidhs,bond \n";
+		set_this +="sidhs.m1@gmail.com\n\n";		
 		set_this += "Comments and suggestions are most welcome :)";
 		// In manifest : android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
 		AlertDialog.Builder dialogBuilder = new AlertDialog.Builder(this);
 		dialogBuilder.setMessage(set_this);
 		dialogBuilder.setCancelable(true);
-		dialogBuilder.setTitle("About Us");
+		dialogBuilder.setTitle("About Me");
 		dialogBuilder.setInverseBackgroundForced(true);
 		dialogBuilder.setIcon(R.drawable.about_us);
 		dialogBuilder.setPositiveButton("Got it", null);
