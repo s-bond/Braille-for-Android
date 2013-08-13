@@ -1,8 +1,10 @@
 Braille-for-Android
 ===================
 **This is my first Android Project, and I have given my try to create a simple Braille application.**
-> NOTE: The app would work correctly only on 10.1" tablet as it involves eight finger touch 
-## Dirctions for using the App ##
+> NOTE: The app would work correctly only on 10.1" tablet as it involves eight finger touch
+
+ 
+## Directions for using the App ##
  
 - First, Select the language by drawing **semi circular arc** in clockwise direction at bottom of the screen
 - Now place your eight fingers, leaving both thumbs in an approximate linear fashion on the screen
